@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "nari-terraform-statefile-dev"
-    key            = "ekscluster"
+    bucket         = "roboshop-dev-lock"
+    key            = "eksctl"
     region         = "us-east-1"
-    dynamodb_table = "terraform-statefile-lock-dev"
+    dynamodb_table = "roboshop-dynamo-dev-lock"
   }
 
 
