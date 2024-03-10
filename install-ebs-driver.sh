@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # add helm repo --> kubernetes resource files
 helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver
 
